@@ -17,6 +17,7 @@ Tkinter Integration
 For file selection, the program uses a tkinter GUI. The root window is initialized and configured to be small, centered, and always on top of other windows for better visibility. A label provides instructions, and a button allows the user to open the file dialog. Once a file is selected, the root window closes automatically. The file selection process integrates seamlessly with the hashing logic, ensuring a smooth user experience.
 
 User Input Validation
+**OUTPUT**: ![Screenshot 2025-01-01 162033](https://github.com/user-attachments/assets/be0e36cf-43ce-4257-8757-0df687e2c28e)
 The program includes checks to ensure valid user input. If the user enters anything other than "1" or "2" at the initial prompt, the program outputs an error message and exits gracefully. Similarly, it handles cases where no file or text input is provided, avoiding crashes and improving robustness.
 
 Error Handling
